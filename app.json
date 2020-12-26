@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "scheme": "bluriii",
+    "name": "bluriii",
+    "slug": "bluriii",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "3.0.8",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+
+
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#262F56"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bluriii.bluriiiapp",
+      "buildNumber": "3.0.8",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Use your Camera to easily Capture photos & videos to create posts in bluriii",
+        "NSMicrophoneUsageDescription": "Use your Microphone to easily record audio & videos to create posts in bluriii",
+        "NSPhotoLibraryUsageDescription": "Add your Camera Roll to easily upload photos & videos to create posts in bluriii "
+
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6551542670417466~1292328073"
+      }
+    },
+    "android": {
+      "package": "com.bluriii.bluriiiapp",
+      "versionCode": 8,
+
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6551542670417466~3726919728"
+      }
+    }
+  }
+}
